@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "futura";
+  src: local("futura"), url(./Assets//Font//Futura-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "gilroy";
+  src: local("gilroy"),
+    url(./Assets//Font//Gilroy-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "helvetica";
+  src: local("helvetica"), url(./Assets//Font//Helvetica.ttf) format("truetype");
+}
+h1,
+h3 {
+  font-family: futura;
+}
+p,
+label {
+  font-family: helvetica;
+}
+label {
+  font-size: 18px;
+}
+a {
+  font-family: helvetica;
+}
+.play {
+  padding: 3vw 2.2vw;
+  background-color: black;
+  color: #fff;
+  font-size: 1.3vw;
+  position: fixed;
+  text-transform: uppercase;
+  font-family: futura;
+  border-radius: 50%;
+  opacity: 0;
+  scale: 0;
+}
+.underline-div {
+  height: 0.5px;
+  width: 0%;
+  background-color: black;
+}
+.shoptosupport:hover .underline-div {
+  width: 100%;
+  transition: width 0.3s ease;
+}
+.animate {
+  color: red;
+  animation: updown 0.3s ease linear;
+}
+@keyframes updown {
+  from {
+    transform: translateY(800px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.slider-container {
+  overflow: hidden;
+  margin-top: 40px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+  padding: 0 30px;
+  text-align: center;
+  letter-spacing: -2px;
+  line-height: 70px;
+}
+.bullet.active::after {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  width: 80px;
+  height: 3px;
+  background-color: black;
+}
+.bullets {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  position: relative;
+}
+
+.bullet {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.bullet.active {
+  background-color: #333;
+}
+/* index.css */
+.page-enter {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.page-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 500ms, opacity 500ms;
+}
+
+.page-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.page-exit-active {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 500ms, opacity 500ms;
+}
+.sidebar-nav {
+  font-family: futura;
+}
+.shop-headdiv:hover .head-line {
+  transition: width 0.4s ease;
+  width: 100%;
+}
+.addProduct input {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 4px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animate-text {
+  animation: spin 9s infinite linear;
+}
