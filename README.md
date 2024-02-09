@@ -141,3 +141,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - This project was bootstrapped with Create React App.
 - Special thanks to GSAP, React Router, and Redux for their valuable contributions to this project.
+## Note: Project Status
+
+This project is currently in a development phase, and certain features, including responsiveness, may still be a work in progress. While efforts have been made to ensure functionality across different devices and screen sizes, there may be areas that require further optimization.
+
+Your feedback and contributions are highly appreciated as we continue to improve and enhance the project. Feel free to report any issues or suggest improvements through GitHub issues or pull requests.
+
+Thank you for your understanding and support!
+
