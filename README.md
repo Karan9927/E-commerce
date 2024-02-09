@@ -1,7 +1,7 @@
 # Ecommerce Website
 ## UI Inspiration
 
-The UI design of this application was inspired by [Award-Winning Website - Two Good Co](https://twogood.com.au/). I acknowledge the creators of [Two Good Co.] <strong>NIGHTJAR</strong> for their inspiring design and layout, which served as a reference during the development of this project.
+The UI design of this application was inspired by [Award-Winning Website - Two Good Co](https://twogood.com.au/). I acknowledge the creators of [Two Good Co.] <strong>NIGHTJAR</strong> for their inspiring design and layout, which served as a reference during the development of this project. You can check more amazing content at [NIGHTJAR](https://www.awwwards.com/Nightjar.co/) and you can also check out [awwwards](https://www.awwwards.com/) for more.
 ## UI
 ## Home Page
 ![image](https://github.com/Karan9927/E-commerce/assets/115612744/eebb41fe-7d85-43f2-bcb7-66c3eff6e111)
