@@ -1,4 +1,5 @@
 # Ecommerce Website
+## [Click here](https://e-commerce-websitereact.netlify.app/) to check out live
 ## UI Inspiration
 
 The UI design of this application was inspired by [Award-Winning Website - Two Good Co](https://twogood.com.au/). I acknowledge the creators of [Two Good Co.] <strong>NIGHTJAR</strong> for their inspiring design and layout, which served as a reference during the development of this project. You can check more amazing content at [NIGHTJAR](https://www.awwwards.com/Nightjar.co/) and you can also check out [awwwards](https://www.awwwards.com/) for more.
